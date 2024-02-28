@@ -1,0 +1,38 @@
+.header{
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.5rem;
+}
+
+.mobile-mode{
+    display: none;
+}
+
+
+@media screen and (max-width: 450px){
+    .header{
+        font-size: 1.6rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        letter-spacing: 0.1rem;
+        word-spacing: 0.4rem;
+    }
+
+    .mobile-mode{
+        display: flex;
+    }
+
+    .desktop-mode{
+        display: none;
+    }
+
+    .navbar-links{
+        font-size: 0.8rem;
+    }
+
+    .comment-block{
+        display: none;
+    }
+
+    
+}

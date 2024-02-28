@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Student Detail</title>
+  </head>
+  <body>
+
+    <nav class="d-flex justify-content-between align-items-center bg-light">
+        <a class="nav-link link-dark" aria-current="page" href="dashboard.html">Logo</a>
+        <div class="d-flex justify-content-center align-items-center list-unstyled navbar-links">
+            <a href="dashboard.html" class="nav-link">Dashboard</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarProgressDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Progress
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarProgressDropdown">
+                <li><a class="dropdown-item" href="assignment.html">Assignment</a></li>
+                <li><a class="dropdown-item" href="attendance.html">Attendance</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarProfileDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Profile
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarProfileDropdown">
+                <li><a class="dropdown-item" href="#">Edit Profile</a></li>
+                <li><a class="dropdown-item" href="#">Logout</a></li>
+                </ul>
+            </li>
+        </div>
+      </nav>
+
+      <div class="container-fluid p-3">
+        <h2 class="header">Akbar Progress Report</h2>
+      </div>
+
+      <div class="container-fluid">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col"><div class="desktop-mode">Week No</div><div class="mobile-mode">Wk No</div></th>
+                <th scope="col" class="text-end"><div class="desktop-mode">Assignment %</div><div class="mobile-mode">Assn %</div></th>
+                <th scope="col" class="text-end"><div class="desktop-mode">Attendance %</div><div class="mobile-mode">Attn %</div></th>
+                <th scope="col" class="text-end">Marks %</th>
+                <th scope="col" class="comment-block">Comment</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr scope="row" data-bs-toggle="tooltip" data-bs-placement="right" title="Good">
+                <th>1</th>
+                <td class="text-end">100</td>
+                <td class="text-end">80</td>
+                <td class="text-end">70</td>
+                <td class="comment-block">Good</td>
+                <td class="text-end"><a href="form.html" class="btn btn-outline-primary btn-sm desktop-mode">Update</a><a href="form.html" class="nav-link text-primary mobile-mode"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></td>
+              </tr>
+              <tr>
+                <th scope="row" data-bs-toggle="tooltip" data-bs-placement="right" title="Excellent">2</th>
+                <td class="text-end">99</td>
+                <td class="text-end">90</td>
+                <td class="text-end">85</td>
+                <td class="comment-block">Excellent</td>
+                <td class="text-end"><a href="form.html" class="btn btn-outline-primary btn-sm desktop-mode">Update</a><a href="form.html" class="nav-link text-primary mobile-mode"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></td>
+              </tr>
+              <tr>
+                <th scope="row" data-bs-toggle="tooltip" data-bs-placement="right" title="Excellent">3</th>
+                <td class="text-end">96</td>
+                <td class="text-end">90</td>
+                <td class="text-end">86</td>
+                <td class="comment-block">Excellent</td>
+                <td class="text-end"><a href="form.html" class="btn btn-outline-primary btn-sm desktop-mode">Update</a><a href="form.html" class="nav-link text-primary mobile-mode"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
